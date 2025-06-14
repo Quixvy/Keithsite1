@@ -1,0 +1,95 @@
+body {
+  background-color: #590D22;
+  display: flex;
+  align-content: center;
+  vertical-align: center;
+  justify-content: center;
+  font-family: 'Sour Gummy', Arial, san-serif, 'Segoe UI Emoji';
+}
+
+.container {
+  background-color: #A4133C;
+  width: 90%;
+  border: 5px solid #800F2F;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-family: Sour Gummy;
+}
+
+.container p {
+  color: white;
+  text-align: justify;
+}
+
+
+.sour-gummy-<uniquifier> {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.last-text {
+  text-align: right !important;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+}
+.next-button {
+font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  background-color: #FF4D6D;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  position: fixed;
+  right: 15px;
+  bottom: 8%;
+}
+
+.music-player {
+  font-size: 10px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #590D22; /* Spotify green */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI Emoji', sans-serif;
+}
+
+.song-info {
+  margin-right: 15px;
+}
+
+.song-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.artist {
+  font-size: 12px;
+  margin: 0;
+}
+
+#playBtn {
+  background-color: white;
+  border: none;
+  color: black;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}

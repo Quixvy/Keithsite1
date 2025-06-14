@@ -1,0 +1,56 @@
+body {
+  background-color: #590D22;
+  font-family: Arial;
+  
+}
+.video {
+  width: 50%;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.container {
+  background-color: #800F2F;
+  display: flex;
+  padding: 5px;
+}
+
+.text {
+  color: white;
+  font-family: 'Sour Gummy';
+}
+
+.text1 {
+  font-family: 'Sour Gummy';
+  display: block;
+}
+
+.sour-gummy-<uniquifier> {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.gif {
+  width: 90%;
+}
+
+.return {
+  background-color: #C9184A;
+  color: white;
+  padding: 5px;
+  margin-top: 10px;
+  font-family: 'Sour Gummy';
+  border: none;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.button-cont {
+  align-content: center;
+  justify-content: center;
+  
+}
